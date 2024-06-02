@@ -17,10 +17,12 @@ jobs:
           node-version: '14'
 
       - name: Install dependencies
-        run: npm install canvas
+        run: |
+          sudo apt-get install -y libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential g++
+          npm install -g canvas
 
       - name: Snake game generator from Github contributions
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
