@@ -10,9 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
 
-      - name: generate-snake-game-from-github-contribution-grid
-        uses: Platane/snk/svg-only@v3
+      - name: Install dependencies
+        run: npm install canvas
+
+      - name: Snake game generator from Github contributions
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
