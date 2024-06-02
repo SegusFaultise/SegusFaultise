@@ -1,7 +1,18 @@
-- name: Snake game generator from Github contributions
-  uses: Sutil/snk@v01.00.02
-  with:
-    github_user_name: SegusFaultise
-    gif_out_path: ./snake_game.gif
-    svg_out_path: ./snake_game.svg
-    snake_color: '#3498db' # Replace with your preferred color hash
+name: Generate Snake Game from GitHub Contributions
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs at midnight every day
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Snake game generator from Github contributions
+        uses: Sutil/snk@v01.00.02
+        with:
+          github_user_name: SegusFaultise
+          gif_out_path: ./snake_game.gif
+          svg_out_path: ./snake_game.svg
+          snake_color: '#3498db' # Replace with your preferred color hash
