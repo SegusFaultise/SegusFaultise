@@ -1,8 +1,6 @@
 name: Generate Snake Game from GitHub Contributions
 
 on:
-  schedule:
-    - cron: "0 0 * * *" # Runs at midnight every day
   workflow_dispatch:
 
 jobs:
