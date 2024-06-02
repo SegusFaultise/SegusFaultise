@@ -22,7 +22,7 @@ jobs:
           npm install -g canvas
 
       - name: Snake game generator from Github contributions
-        uses: Platane/snk@v3
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
