@@ -1,4 +1,4 @@
-## [SegusFaultise][website] - [Email][mail] - [LinkedIn][linkedin]
+## [SegusFaultise][website]
 ![](https://visitor-badge.laobi.icu/badge?page_id=SegusFaultise.SegusFaultise) [![Github](https://img.shields.io/github/followers/SegusFaultise?label=Followers&logo=Github)](https://github.com/SegusFaultise)
 
 
@@ -10,8 +10,3 @@
 - 👯 I’m looking to collaborate with anyone "if they use linux" on any project.
 
 <br />
-
-
-[website]: https://charalambosioannou.tech
-[linkedin]: https://www.linkedin.com/in/zakk-wilson-christian-00b325240/
-[mail]: wilsonzakk8@gmail.com
