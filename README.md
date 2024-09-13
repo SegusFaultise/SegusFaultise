@@ -2,10 +2,6 @@
 
 
 
-## 🎓 Software engineer master sergeant major lance corporal prestige 10
-
-- 🏗️ I’m currently building cool shit.
-- 🏫 I’m currently in uni a.k.a debt
-- 👯 I’m looking to collaborate with anyone "if they use linux" on any project.
+## 🎓 Computer Science Student
 
 <br />
