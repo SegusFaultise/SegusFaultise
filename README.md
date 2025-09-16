@@ -1,6 +1,5 @@
 <div align="center">
-  <h1>Zakk Wilson-Christian</h1>
-  <h3>Computer Science Student</h3>
+  <h1>Zakk Wilson-Christian</>
 </div>
 
 <div align="center">
